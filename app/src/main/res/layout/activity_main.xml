@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/satellite"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/enter_number"
+        android:layout_weight="0.12"
+        android:layout_margin="35dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white">
+
+        <requestFocus />
+    </EditText>
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/enter_dist"
+        android:layout_weight="0.12"
+        android:layout_margin="32dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/enter_time"
+        android:layout_weight="0.12"
+        android:layout_margin="30dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:onClick="doOk"
+        android:layout_marginLeft="130dp"
+        android:text="@string/start_text"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:onClick="doBack"
+        android:text="@string/back_text"
+        android:layout_marginLeft="130dp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

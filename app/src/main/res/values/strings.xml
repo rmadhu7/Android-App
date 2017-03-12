@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Monitor Location</string>
+    <string name="start_text"><b><i>START</i></b></string>
+    <string name="back_text"><b><i>BACK</i></b></string>
+    <string name="enter_number"><b><i>Enter Mobile Number</i></b></string>
+    <string name="enter_time"><b><i>Enter time interval (min)</i></b></string>
+    <string name="enter_dist"><b><i>Enter distance (meter)</i></b></string>
+    <string name="action_settings">Settings</string>
+
+</resources>
